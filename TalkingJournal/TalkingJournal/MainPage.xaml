@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:TalkingJournal"
              x:Class="TalkingJournal.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+<!--	<Label Text="Welcome to Xamarin.Forms!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+-->
 
 </ContentPage>

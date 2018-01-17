@@ -9,9 +9,10 @@ namespace TalkingJournal_Tests
 {
     
     [TestClass]
+    [Ignore]
     public class CatgoryServiceTests
     {
-        //Too long [TestMethod]
+        [TestMethod]
         public void TestTDGCategoryLoad()
         {
             var category = TestConstants.Tdg.First();
@@ -23,7 +24,7 @@ namespace TalkingJournal_Tests
             Assert.AreNotEqual(count1*2,category.Count());
         }
 
-        //Too long [TestMethod]
+        [TestMethod]
         public void TestLeMondeCategoryLoad()
         {
             var category = TestConstants.LeMonde.First();
